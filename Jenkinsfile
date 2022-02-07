@@ -9,7 +9,7 @@ pipeline {
         stage('Build'){
             steps{
                 git 'https://github.com/BlasterB4A/DevOps_Demo.git'
-                bat 'python vennevetti.py'
+                input 'python vennevetti.py'
             }
         }
         stage('Test'){
