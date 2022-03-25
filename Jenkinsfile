@@ -10,7 +10,7 @@ pipeline {
             steps{
                 git 'https://github.com/BlasterB4A/DevOps_Demo.git'
                 sh '''#!/bin/bash
-                python vennavetti.py
+                python first.py
                 '''
             }
         }
